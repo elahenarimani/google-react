@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Input from './components/input/Input';
 import Googlesearch from './components/google search/Googlesearch';
-import Feeling from './components/feeling/Feeling';
+
 
 function App() {
   return (
@@ -27,8 +27,8 @@ function App() {
       </div>
       <Input/>
       <div className='button-wrapper'>
-      <Feeling/>
-       <Googlesearch/>
+      <Googlesearch text={"Google Search"}/>
+      <Googlesearch text={"I'm Feeling Happy"}/>
       </div>
      </main>
      <footer>

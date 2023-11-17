@@ -1,8 +1,8 @@
 import './googlesearch.css'
-function Googlesearch(){
+function Googlesearch({text}){
     return(
         <button>
-        I'm Feeling Happy
+        {text}
         </button>
     )
 }
